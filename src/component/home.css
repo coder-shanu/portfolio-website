@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  padding: 30px;
+  margin-top: 0; /* Reset margin to align with the top of the viewport */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box; /* Include padding in height */
+  box-shadow: 2px;
+}
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  max-width: 600px;
+  margin-right: 50px; /* Adjusted to ensure proper spacing */
+  color: rgb(0, 0, 0);
+}
+
+.intro {
+  color: rgb(0, 0, 0);
+  font-size: 40px; /* Increased font size */
+  margin-bottom: 10px; /* Added space between elements */
+}
+
+.intro1 {
+  font-size: 25px; /* Increased font size */
+  margin-bottom: 20px; /* Added space between elements */
+}
+
+.shanu {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image round */
+  margin-top: 30px; /* Adds space between the intro text and the image */
+}
+
+.hero-section {
+  margin-top: 20px; /* Adjusted for better spacing */
+  display: flex;
+}
+
+.hero-resume {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid rgb(249, 249, 249);
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.hero-resume:hover {
+  background-color: #0056b3;
+}
+
+.hero-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px; /* Added margin-top for spacing */
+}
+
+.hero-link {
+  color: #000;
+  font-size: 25px;
+  transition: color 0.3s;
+}
+
+.hero-link:hover {
+  color: #007bff;
+}
+
+a {
+  text-decoration: none;
+}

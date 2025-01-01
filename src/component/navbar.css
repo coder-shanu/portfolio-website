@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  
+  .logo {
+    color: rgb(235, 235, 235);
+    padding-left: 180px; /* Adjusted padding for better alignment */
+    font-size: 1.5em; /* Added a font size for the logo */
+    font-weight: bold; /* Optional: added bold styling for the logo */
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for the navbar */
+    background-color: rgb(42, 57, 59);
+    padding: 10px 20px; /* Increased padding for better spacing */
+    position: fixed; /* Fixes the navbar at the top */
+    width: 100%;
+    top: 0;
+    left: 0;
+  
+    z-index: 1000; /* Ensures the navbar stays on top */
+  }
+  
+  /* Adjustments for desktop menu items */
+  .desktop_menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    color: white;
+    padding-right: 30px;
+    margin:0; /* Removed margin-right for better alignment */
+  }
+  
+  .desktopitems {
+    transition: transform 0.3s; /* Smooth scaling transition */
+  }
+  
+  .desktopitems:hover {
+    transform: scale(1.1); /* Slightly enlarge the item on hover */
+    cursor: pointer;
+  }
+  
